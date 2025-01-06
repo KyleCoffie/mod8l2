@@ -1,0 +1,25 @@
+img{
+    border-radius: 10px;
+    box-shadow: 0 2px 4px chocolate;
+}
+ul.thelist{
+    list-style-type: circle;
+    
+}
+a:hover{
+    text-decoration: none;
+    color: red;
+}
+a:visited{
+    color:purple
+}
+a:active{
+    color: black;
+}
+img:hover{
+    box-shadow: none;
+}
+
+iframe:hover{
+    border: 150px
+}

@@ -20,6 +20,36 @@ img:hover{
     box-shadow: none;
 }
 
-iframe:hover{
-    border: 150px
+form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input:hover, textarea:hover {
+    border: 1px solid blueviolet;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(132, 130, 99);
+    color: rgb(3, 2, 2);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #77aa8b;
 }

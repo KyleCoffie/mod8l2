@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+label{
+    display:block;
+    margin: 10px 0 5px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    text-shadow: #FFFFFF 1px 2px;
+}
+input[type="text"],
+input[type="name"],
+input[type="email"],
+input[type="password"],
+textarea{
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: 1px solid darkblue;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+    margin-top: 1%;
+    border-radius: 3px;
+    width: 100px;
+    background-color: rgba(245, 245, 220, 0.778);
+    cursor: pointer;
+    padding: 10px 15px;
+    text-shadow: rgb(253, 250, 250) 1px 1px;
+    
+
+    
+}
+button:hover{
+    background-color: #ffebcd;
+    border-color: blanchedalmond;
+    font-style: oblique;
+    font-weight: bold;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    text-align: center;
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+}
+form{
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    background-color: antiquewhite;
+
+}
+input:hover, textarea:hover{
+    border-color: #ffea00;
+    /* border: 1px solid aquamarine; */
+}
+ul{
+    display:flex;
+    justify-content: center;
+}
+li{
+    list-style-type: none;
+    margin: 15px;
+}
+a:hover{
+    text-decoration-line:none;
+    color: black;
+    transition: all .3s ease;
+    transform: scale(1.2);
+    
+}
+a{
+    text-decoration: none;
+    color: rgba(75, 43, 4, 0.181);
+    text-shadow: #FFFFFF 1px 2px;
+
+}
+nav{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    font-size: 25;
+    font-weight: 800;
+    font-style: oblique;
+    border-radius: 10%;
+    box-sizing: content-box;
+    background-color: rgb(236, 229, 218);
+    padding: 10px;
+    margin: 10px;
+    gap: 10px;
+    box-shadow: #030101;
+}
